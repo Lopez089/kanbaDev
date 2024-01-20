@@ -1,9 +1,16 @@
+import { Card } from './components'
+import './App.css'
+
 const App = () => {
 
   return (
-    <>
-      <p>hola </p>
-    </>
+    <main>
+      <section>
+        <Card>
+          <p>hola amigo soy una card</p>
+        </Card>
+      </section>
+    </main>
   )
 }
 
