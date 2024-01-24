@@ -1,4 +1,18 @@
-:root {}
+:root {
+  /* pading */
+  --padding-xs: .4rem;
+  --padding-s: .8rem;
+  --padding-m: 1.2rem;
+  --padding-lg: 1.6rem;
+
+  /* border */
+  --border-radius: .8rem;
+
+  /* font */
+  --font-size-xs: .6rem;
+  --font-size-s: .8rem;
+  --font-size-m: 1rem;
+}
 
 * {
   padding: 0;

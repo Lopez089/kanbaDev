@@ -1,11 +1,10 @@
-.card {
-  min-width: 250px;
-  background: #ffffff;
-  font-size: var(--font-size-s);
-  padding: var(--padding-m);
+.tag {
+  display: inline-block;
+  padding: var(--padding-xs) var(--padding-s);
   border-radius: var(--border-radius);
   -webkit-border-radius: var(--border-radius);
   -moz-border-radius: var(--border-radius);
   -ms-border-radius: var(--border-radius);
   -o-border-radius: var(--border-radius);
+  text-transform: capitalize;
 }
