@@ -1,4 +1,4 @@
-import { Card } from './components'
+import { Card, Tag } from './components'
 import './App.css'
 
 const App = () => {
@@ -7,7 +7,6 @@ const App = () => {
     <main>
       <section>
         <Card>
-          <p>hola amigo soy una card</p>
         </Card>
       </section>
     </main>
