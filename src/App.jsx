@@ -1,4 +1,4 @@
-import { Card, DescriptionTask } from './components'
+import { Card, Avatar } from './components'
 import './App.css'
 
 const App = () => {
@@ -7,9 +7,7 @@ const App = () => {
     <main>
       <section>
         <Card>
-          <DescriptionTask >
-            Esto es una nueva tarea para la app KanbaDev
-          </DescriptionTask>
+          <Avatar>JM</Avatar>
         </Card>
       </section>
     </main>
