@@ -8,7 +8,7 @@ export const ContainerDate = ({ date }) => {
   const age = date.getFullYear().toString().slice(-2)
 
   return (
-    <p>{`${day} ${month} ${age}`}</p>
+    <p className="date">{`${day} ${month} ${age}`}</p>
   )
 }
 

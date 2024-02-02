@@ -12,6 +12,10 @@
   --font-size-xs: .6rem;
   --font-size-s: .8rem;
   --font-size-m: 1rem;
+
+  /* color */
+
+  --gray-200: #bcbcbc;
 }
 
 * {

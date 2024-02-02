@@ -1,0 +1,24 @@
+.task {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.task-header,
+.task-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.task-header .material-symbols-outlined {
+  color: var(--gray-200);
+  cursor: pointer;
+}
+
+.task-main {
+  font-size: .9rem;
+}
+
+.task-footer .date {
+  color: var(--gray-200);
+}
