@@ -1,12 +1,31 @@
-import { Card, Task } from './components'
-import { ContainerAvatar, ContainerDate } from './containers'
+import { ContainerGroupTask } from './containers'
 import './App.css'
 
+const tasks = [
+  {
+    id: 1,
+    description: 'Soy una nota 1',
+  },
+  {
+    id: 2,
+    description: 'Soy una nota 2',
+  },
+  {
+    id: 3,
+    description: 'Soy una nota 3',
+  },
+  {
+    id: 4,
+    description: 'Soy una nota 4',
+  }
+]
+
+
 const App = () => {
-  const date = new Date
   return (
     <main>
       <section className='container'>
+        <ContainerGroupTask tasks={tasks} />
         {/* <Card>
           <>
             <ContainerDate date={date} />
@@ -16,7 +35,6 @@ const App = () => {
             />
           </>
         </Card> */}
-        <Task />
       </section >
       <section>
       </section>

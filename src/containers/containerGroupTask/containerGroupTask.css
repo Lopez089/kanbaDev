@@ -1,0 +1,25 @@
+.container-group-task {}
+
+.group-task-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.group-task-header span {
+  color: var(--gray-200);
+  cursor: pointer;
+}
+
+.group-task-main {
+  display: grid;
+  gap: 1rem;
+}
+
+.group-task-footer {
+  color: var(--gray-200);
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
