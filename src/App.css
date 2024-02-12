@@ -11,6 +11,5 @@ main {
   width: 60%;
   padding: 4rem;
   display: flex;
-  justify-content: center;
   align-items: center;
 }

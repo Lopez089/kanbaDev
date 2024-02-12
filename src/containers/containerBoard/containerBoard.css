@@ -1,0 +1,4 @@
+.container-board {
+  display: flex;
+  gap: 2rem;
+}

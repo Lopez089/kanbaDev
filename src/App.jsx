@@ -1,4 +1,4 @@
-import { ContainerGroupTask } from './containers'
+import { ContainerGroupTask, ContainerBoard } from './containers'
 import './App.css'
 
 const tasks = [
@@ -25,7 +25,8 @@ const App = () => {
   return (
     <main>
       <section className='container'>
-        <ContainerGroupTask tasks={tasks} />
+        <ContainerBoard />
+        {/* <ContainerGroupTask tasks={tasks} /> */}
         {/* <Card>
           <>
             <ContainerDate date={date} />
