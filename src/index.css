@@ -16,6 +16,8 @@
   /* color */
 
   --gray-200: #bcbcbc;
+  --color-primary-300: #3686ef;
+  --color-primary-700: #113059;
 }
 
 * {

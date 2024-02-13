@@ -1,0 +1,17 @@
+.btn {
+  background: var(--color-primary-300);
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  -webkit-border-radius: var(--border-radius);
+  -moz-border-radius: var(--border-radius);
+  -ms-border-radius: var(--border-radius);
+  -o-border-radius: var(--border-radius);
+  transition: 1s cubic-bezier(0.68, -0.55, 0.27, 1.55) allow-discrete;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: var(--color-primary-700);
+}

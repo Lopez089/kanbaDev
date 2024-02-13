@@ -12,5 +12,4 @@ export const Card = ({ children }) => {
 
 Card.propTypes = {
   children: PropTypes.element.isRequired
-
 }
