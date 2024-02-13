@@ -1,5 +1,5 @@
 import { ContainerGroupTask, ContainerBoard } from './containers'
-import { Button } from './components'
+import { Button, InputDescptionTask } from './components'
 import './App.css'
 
 const tasks = [
@@ -40,6 +40,7 @@ const App = () => {
       </section >
       <section>
         <Button>Done</Button>
+        <InputDescptionTask />
       </section>
     </main >
   )

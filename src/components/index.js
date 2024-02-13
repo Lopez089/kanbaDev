@@ -1,3 +1,4 @@
+export * from './InputDescptionTask/InputDescptionTask';
 export * from './avatar/avatar';
 export * from './button/button';
 export * from './card/card';
